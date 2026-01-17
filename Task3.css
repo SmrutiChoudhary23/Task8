@@ -1,0 +1,429 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: Montserrat;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: rgb(20, 20, 20);
+    height: 100%;
+    color: rgb(255, 243, 175);
+}
+#navbar
+{
+    height: 72px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.nav_item
+{
+    color: rgb(255, 243, 175);
+}
+#navbar a
+{
+    text-decoration: none;
+    padding: 0.8% 3%;
+    font-size: 1.4em;
+}
+#navbar a:hover
+{
+    background-color: rgb(255, 243, 175);
+    color: rgb(20, 20, 20);
+}
+#home_imgbox
+{
+    height: 740px;
+    width: 560px;
+    position: absolute;
+    top: 20%;
+    left: 65%;
+    border: 10px solid rgb(255, 243, 175);
+}
+#home_img
+{
+    height: 740px;
+    width: 560px;
+    position: absolute;
+    top: 14%;
+    left: 68%;
+}
+#home_text1
+{
+    color: rgb(255, 243, 175);
+    font-size: 2em;
+    position: absolute;
+    top: 38%;
+    left: 15%;
+}
+#home_text2, #Name
+{
+    color: rgb(255, 243, 175);
+    position: absolute;
+}
+#home_text2
+{
+    font-weight: bold;
+    font-size: 5.5em;
+    top: 42%;
+    left: 15%;
+}
+#Name
+{
+    top: 39.5%;
+    left: 22.5%;
+    font-size: 7.5em;
+    font-family: Tilt Prism;
+}
+#home_box
+{
+    background-color: rgb(255, 243, 175);
+    color: rgb(20, 20, 20);
+    height: 40px;
+    width: 620px;
+    position: absolute;
+    left: 15%;
+    top: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+}
+#home_para
+{
+    color: rgb(255, 243, 175);
+    position: absolute;
+    left: 15%;
+    top: 62%;
+    width: 45%;
+    font-size: 1.2em;
+    letter-spacing: 0.3px;
+}
+#home_button
+{
+    background-color: rgb(255, 243, 175);
+    color: rgb(20, 20, 20);
+    position: absolute;
+    left: 15%;
+    top: 69%;
+    width: 10%;
+    height: 5%;
+    border-radius: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+}
+#home_button:hover
+{
+    background-color: rgb(255, 222, 33);
+    width: 15%;
+    height: 7%;
+    font-size: 1.3em;
+    transition: 0.5s;
+}
+html 
+{
+  scroll-behavior: smooth;
+}
+main section 
+{
+  min-height: 100vh;
+  padding: 70px 5%;
+}
+section h2 
+{
+  font-size: 3.5em;
+  margin-bottom: 20px;
+  color: rgb(255, 243, 175);
+}
+section p 
+{
+  font-size: 1.2em;
+  color: rgb(200, 200, 200);
+}
+#about, #skills, #projects, #contact 
+{
+  background-color: #111;
+  border-top: 1px solid rgb(80, 80, 80);
+}
+#about_box, #skills_box, #contact_box
+{
+    height: 770px;
+    width: 1705px;
+    background-color: rgba(255, 235, 125, 0.04);
+    border: 2px solid rgb(255, 243, 175);
+    position: absolute;
+    left: 250px;
+    top: 123%;
+}
+#about_img
+{
+    height: 400px;
+    width: 490px;
+    border: 1px solid rgb(255, 243, 175);
+    position: absolute;
+    left: 100px;
+    top: 1350px;
+    z-index: 1;
+}
+#about_para
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 71%;
+    margin-left: 29%;
+    font-size: 1.1em;
+    text-align: justify;
+    letter-spacing: 0.3px;
+}
+#about_para1
+{
+    color: rgb(255, 243, 175);
+    margin-top: 3%;
+}
+#about_para2
+{
+    color: rgb(255, 243, 175);
+    margin-top: 15px;
+}
+li
+{
+    font-size: 1.2em;
+}
+#about_para3
+{
+    color: rgb(255, 243, 175);
+    margin-top: 15px;
+}
+#about_para4
+{
+    color: rgb(255, 243, 175);
+    margin-top: 15px;
+}
+#about_para5
+{
+    color: rgb(255, 243, 175);
+    margin-top: 15px;
+}
+#about_button, .project_button, #send_button
+{
+    background-color: rgb(255, 243, 175);
+    color: rgb(20, 20, 20);
+    position: absolute;
+    left: 30%;
+    top: 192%;
+    width: 10%;
+    height: 5%;
+    border-radius: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+}
+#about_button:hover
+{
+    background-color: rgb(255, 222, 33);
+    width: 15%;
+    height: 7%;
+    font-size: 1.3em;
+    transition: 0.5s;
+}
+#skills_box
+{
+    left: 100px;
+    top: 2165px;
+    width: 1855px;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+#skills_boxnested
+{
+    height: 770px;
+    width: 300px;
+    background-color: rgb(255, 243, 175);  
+    position: absolute;
+    top: 2165px;
+}
+#technical_skills, #soft_skills
+{
+    color: rgb(20, 20, 20);
+    font-size: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    width: 10%;
+    text-align: center;
+    padding: 130px 50px;
+}
+.tech_skill
+{
+    height: 500px;
+    width: 370px;
+    margin-top: 65px;
+}
+.skill1
+{
+    margin-left: 350px;
+}
+.tech_skill1
+{
+    width: 275px;
+    height: 40px;
+    background-color: rgb(255, 243, 175); 
+    color: rgb(20, 20, 20);
+    text-align: center;
+    padding: 10px 2px;
+}
+.ts
+{
+    list-style-type: none;
+    color: rgb(255, 243, 175); 
+    text-align: left;
+    margin-top: 20px;
+    padding: 20px;
+}
+.ts li
+{
+    padding-top: 20px;
+}
+#soft_skills
+{
+    padding: 220px 90px;
+}
+.soft_skill1
+{
+    list-style-type: none;
+    display: inline-flex;
+    justify-content:space-between;
+    margin-top: 600px;
+    position: absolute;
+    left: 275px;
+    height: 80px;
+    font-size: 1.2em;
+}
+.soft_skill1 li
+{
+    color: rgb(255, 243, 175);
+    width: 250px;
+    text-align: center;
+}
+.box
+{
+    background-color: rgba(255, 235, 125, 0.04);
+    border: 2px solid rgb(255, 243, 175);
+    position: absolute;
+    height: 370px;
+    width: 600px;
+    font-size: 1.4em;
+    padding: 20px;
+}
+.box4
+{
+    top: 3545px;
+}
+.box2, .box5
+{
+    left: 730px;
+}
+.box3, .box6
+{
+    left: 1355px;
+}
+.box5
+{
+    top: 3545px;
+}
+.box6
+{
+    top: 3545px;
+}
+.paragraphs
+{
+    color: rgb(255, 243, 175);
+    margin-left: 2px;
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 0.9em;
+}
+.project_button, #send_button
+{
+    height: 40px;
+    width: 180px;
+    font-size: 0.8em;
+    position: absolute;
+    left: 20px;
+    top: 300px;
+    color: rgb(20, 20, 20);
+}
+.project_button:hover, #send_button:hover
+{
+    background-color: rgb(255, 222, 33);
+    font-size: 1.3em;
+    height: 50px;
+    width: 210px;
+    transition: 0.5s;
+}
+#contact_box
+{
+    left: 100px;
+    top: 4120px;
+    width: 1855px;
+}
+.form_element
+{
+    background-color: rgb(20, 20, 20);
+    color: rgb(255, 243, 175);
+    height: 50px;
+    width: 500px;
+    border: 2px solid rgb(255, 243, 175);
+    margin-left: 150px;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+.element1
+{
+    margin-top: 100px;
+}
+textarea
+{
+    height: 200px;
+}
+#send_button
+{
+    top: 500px;
+    left: 150px; 
+    font-size: 1.2em;  
+}
+#contact_details_box
+{
+    background-color: rgb(255, 243, 175);
+    color:rgb(20, 20, 20);
+    height: 770px;
+    width: 800px;
+    position: absolute;
+    left: 1053px;
+    top: 0px;
+}
+#contact_details
+{
+    list-style-type: none;
+    margin-left: 40px;
+    margin-top: 50px;
+    font-size: 1.4em;
+}
+#contact_details .list_item a
+{
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+}
+#contact_details .list_item a:hover
+{
+    font-size: 1.5em;
+    transition: 1s;
+}
+.list_item
+{
+    padding: 35px;
+}
